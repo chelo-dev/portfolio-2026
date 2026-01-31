@@ -1,47 +1,39 @@
-# Astro Starter Kit: Basics
+<br clear="both">
 
-```sh
-npm create astro@latest -- --template basics
-```
+<h1 align="left">¡Hola, 👋! Bienvenido a mi perfil</h1>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+###
 
-## 🚀 Project Structure
+<p align="left">Soy Angel Paredes Torres del estado de Morelos, México.</p>
 
-Inside of your Astro project, you'll see the following folders and files:
+###
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+<h2 align="left">Sobre mí</h2>
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+###
 
-## 🧞 Commands
+<p align="left">Soy experto en tecnologías web además de mi experiencia técnica, tengo una gran pasión por el ajedrez, las motos y disfruto pasar tiempo con mis perros. Creo firmemente en la importancia de la continua auto-mejora y aprendizaje, lo que me lleva a explorar constantemente nuevas tecnologías y metodologías de desarrollo.</p>
 
-All commands are run from the root of the project, from a terminal:
+###
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Mis Proyectos
 
-## 👀 Want to learn more?
+Aquí en GitHub, encontrarás una variedad de proyectos que reflejan mis habilidades y pasiones. Desde aplicaciones de seguridad informática hasta plataformas de e-commerce y sistemas de gestión escolar, cada proyecto es una oportunidad para explorar nuevas ideas y enfrentar desafíos.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-# portfolio-2026
+- [Proyecto de Seguridad Informática](#)
+- [Sistema de Servicios Escolares](#)
+- [API Ordenes de Servicios Generales](#)
+- [APP Ordenes de Servicios Generales](#)
+- [API Codigos Postales Mexico](#)
+
+## ¿Quieres colaborar?
+
+Estoy siempre abierto a colaborar en proyectos interesantes o discutir ideas innovadoras. Si tienes una propuesta o simplemente quieres decir hola, ¡no dudes en contactarme!
+
+## Mantente en contacto
+
+- **Correo**: angelparedestorres.apt@gmail.com
+- **LinkedIn**: www.linkedin.com/in/angel-paredes-torres
+
+¡Gracias por visitar mi perfil! Espero que encuentres algo que despierte tu interés.
+
