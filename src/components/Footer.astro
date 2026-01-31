@@ -1,0 +1,108 @@
+<footer class="footer">
+  <div class="footer-container">
+    <div class="contact-section">
+      <div class="location">
+        <span class="icon">📍</span>
+        <span>ZACATEPEC, MORELOS, MÉXICO</span>
+      </div>
+      <div class="contact-info">
+        <span class="icon">📧</span>
+        <div>
+          <p><strong>ENVÍA TU MENSAJE:</strong></p>
+          <a href="mailto:angelparedestorres.apt@gmail.com" class="email-link">
+            angelparedestorres.apt@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Angel Paredes Torres. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+
+  .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .contact-section {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .location,
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .contact-info div p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+
+  .email-link {
+    color: #5c9dad;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 2px;
+  }
+
+  .email-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #5c9dad;
+    transition: width 0.3s ease;
+  }
+
+  .email-link:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+  }
+
+  .email-link:hover::after {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    color: #a8b2d1;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(92, 157, 173, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

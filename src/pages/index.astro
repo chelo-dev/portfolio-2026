@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import MainContent from '../components/MainContent.astro';
+import Footer from '../components/Footer.astro';
+import Profile from '../components/Profile.astro';
+---
+
+<Layout 
+  title="Angel Paredes Torres - Full Stack Developer" 
+  description="Full Stack Developer especializado en Laravel, Angular, Ionic y TypeScript. Desarrollo de aplicaciones web y móviles."
+>
+  <main class="page-wrapper">
+    <Header />
+    <Profile/>
+    <MainContent />
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  .page-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2b2d42 0%, #1a1b2e 100%);
+    color: white;
+  }
+</style>
