@@ -18,9 +18,6 @@ const {
   <meta name="description" content={description}>
   <title>{title}</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <slot />
@@ -29,6 +26,17 @@ const {
 
 <style is:global>
   @import '../styles/global.css';
+
+   /* Importar fuentes Poppins locales */
+  @font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins.woff2') format('woff2'),
+         url('/fonts/Poppins.woff') format('woff'),
+         url('/fonts/Poppins.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
   
   body {
     font-family: 'Poppins', sans-serif;
